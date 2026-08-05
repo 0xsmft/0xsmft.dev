@@ -2,7 +2,7 @@
 
 Each version in Saturn has a display name and an internal number.
 
-Starting in Saturn version 0.2.6, each version now comes with it's own build unqiue ID (UBID).
+Starting in Saturn version 0.2.6, each version now comes with it's own unqiue build ID (UBID).
 
 ### Past Version Table
 
@@ -20,6 +20,7 @@ Starting in Saturn version 0.2.6, each version now comes with it's own build unq
 | Alpha | 0.2.4 | 8196 | 27 March 2026 | -
 | Alpha | 0.2.5 | 8197 | 27 May 2026   | -
 | Alpha | 0.2.6 | 8198 | 27 July 2026  | L27AP
+| Alpha | 0.2.7 | 8199 | 27 Sept 2026  | D17KF
 
 ### UBID
 
