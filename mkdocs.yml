@@ -14,3 +14,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/0xsmft
   generator: false
+plugins:
+  - git-revision-date-localized:
+      type: date
