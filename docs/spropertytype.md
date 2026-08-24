@@ -1,4 +1,4 @@
-# SPropertyFlags
+# SPropertyType
 
 ### Valid data types for an [SProperty](sproperty.md).
 
