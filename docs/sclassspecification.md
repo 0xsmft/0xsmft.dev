@@ -13,7 +13,7 @@ struct SClassSpecification
 ```cpp
 std::string Name;
 std::underlying_type_t<SClassFlags> Flags;
-int Properties;
+size_t Properties;
 size_t Size;
 size_t Alignment;
 uint64_t Hash;
