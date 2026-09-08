@@ -7,8 +7,8 @@
 | Name  | Numerical Value | File extension |
 | ------| ------| ---- |
 | Texture | 0 (0x0) | .stx |
-| StaticMesh | 1 (0x1) | .gsnd |
-| SkeletalMesh | 2 (0x2) | .scene |
+| StaticMesh | 1 (0x1) | .stmesh |
+| SkeletalMesh | 2 (0x2) | .skmesh |
 | Material | 3 (0x3) | .smaterial
 | MaterialInstance | 4 (0x4) | N/A
 | Sound | 5 (0x5) | .snd
