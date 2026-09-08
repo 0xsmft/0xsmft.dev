@@ -1,4 +1,4 @@
-# Alura Drawer (SAluraDrawer)
+# AluraDrawer (SAluraDrawer)
 
 Inheritable class to allow for custom drawing onto the AluraCanvas.
 

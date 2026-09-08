@@ -1,6 +1,6 @@
 # SPropertyType
 
-### Valid data types for an [SProperty](sproperty.md).
+Valid data types for an [SProperty](sproperty.md).
 
 ```cpp
 enum class SPropertyType

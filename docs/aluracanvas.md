@@ -1,4 +1,4 @@
-# Alura Canvas
+# AluraCanvas
 
 Main UI functions for Alura.
 
