@@ -1,5 +1,7 @@
 # SClassSpecification
 
+``#include "Saturn/GameFramework/SClass.h"``
+
 An SClassSpecification defines the specification of an [SClass](sclass.md).
 
 This struct is only to be used by the ClassMetadataHandler and the BuildTool!

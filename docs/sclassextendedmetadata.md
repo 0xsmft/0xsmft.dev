@@ -1,5 +1,7 @@
 # SClassExtendedMetadata
 
+``#include "Saturn/GameFramework/SClass.h"``
+
 Internal extended metadata for Saturn-Editor.
 
 ```cpp

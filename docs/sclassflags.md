@@ -1,5 +1,7 @@
 # SClassFlags
 
+``#include "Saturn/GameFramework/SClass.h"``
+
 Flags for an [SClass](sclass.md).
 
 32 bit-field enum.

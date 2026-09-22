@@ -1,5 +1,7 @@
 # Entity (SEntity)
 
+``#include "Saturn/Scene/Entity.h"``
+
 Base class for a spawnable gameplay object.
 
 ```cpp

@@ -1,5 +1,7 @@
 # AssetBundle
 
+``#include "Saturn/Serialisation/AssetBundle.h"``
+
 The AssetBundle is a compressed collection of all assets in the current project.
 
 The threshold at which an asset would be compressed is specified in the project settings. By default it's 512kib.
@@ -26,6 +28,18 @@ The bundle includes:
 - Default Font Asset
 - All action bindings
 - All Sound Groups
+
+#### Header struct
+
+```cpp
+struct AssetBundleMinimalHeader
+{
+    // .AB + null
+    const unsigned char Magic[ 4 ] = { 0x2E, 0x41, 0x42, 0x00 };
+    uint32_t Version = 0u;
+    uint64_t BuildTime = 0llu;
+};
+```
 
 #### File structure
 

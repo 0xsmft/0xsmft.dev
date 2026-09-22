@@ -1,5 +1,7 @@
 # AluraCanvasSpecification
 
+``#include "Saturn/Alura/AluraCanvas.h"``
+
 Specification to create an [AluraCanvas](aluracanvas.md).
 
 ```cpp

@@ -1,5 +1,7 @@
 # AluraDrawer (SAluraDrawer)
 
+``#include "Saturn/Alura/AluraDrawer.h"``
+
 Inheritable class to allow for custom drawing onto the AluraCanvas.
 
 This class is pure-virtual and **all** functions must be overridden!

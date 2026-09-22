@@ -1,5 +1,7 @@
 # PropertyTypeTraits
 
+``#include "Saturn/GameFramework/SProperty.h"``
+
 Compile time templated structure to get information about an SProperty data type.
 
 ```cpp

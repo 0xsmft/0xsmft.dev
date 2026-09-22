@@ -1,5 +1,7 @@
 # SClass
 
+``#include "Saturn/GameFramework/SClass.h"``
+
 An SClass defines the type of an [SObject](sobject.md).
 
 ```cpp

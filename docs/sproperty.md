@@ -1,5 +1,7 @@
 # SProperty
 
+``#include "Saturn/GameFramework/SProperty.h"``
+
 An SProperty wraps a reflected C++ type.
 
 Any value that is preceeded with the `SPROPERTY()` macro

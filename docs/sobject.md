@@ -1,5 +1,7 @@
 # SObject
 
+``#include "Saturn/GameFramework/SObject.h"``
+
 Base class for Gameplay Objects/Reflected types.
 
 All classed based from `SObject` should have the `S` prefix.

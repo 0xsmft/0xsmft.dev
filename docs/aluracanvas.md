@@ -1,5 +1,7 @@
 # AluraCanvas
 
+``#include "Saturn/Alura/AluraCanvas.h"``
+
 Main UI functions for Alura.
 
 Global variable: `AluraCanvas* g_AluraCanvas`

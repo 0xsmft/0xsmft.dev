@@ -1,5 +1,7 @@
 # SPropertyFlags
 
+``#include "Saturn/GameFramework/SProperty.h"``
+
 ### Flags for an [SProperty](sproperty.md).
 
 32 bit-field enum.

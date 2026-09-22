@@ -1,5 +1,7 @@
 # AluraStylingProfile
 
+``#include "Saturn/Alura/AluraStylingProfile.h"``
+
 AluraStylingProfile asset.
 
 Asset Color: Dark Green, RGBA (22, 74, 12, 255) Hex: (164A0C)

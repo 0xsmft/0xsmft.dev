@@ -1,5 +1,7 @@
 # AssetTypeTraits
 
+``#include "Saturn/Asset/Asset.h"``
+
 2-bit (min. 1 byte) type traits for Assets.
 
 NB: Editor Only!
