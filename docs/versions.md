@@ -21,7 +21,7 @@ Starting in Saturn version 0.2.6, each version now comes with it's own unqiue bu
 | Alpha | 0.2.5 | 8197 | 27 May 2026   | -
 | Alpha | 0.2.6 | 8198 | 27 July 2026  | L27AP
 | Alpha | 0.2.7 | 8199 | 27 Sept 2026  | D17KF
-| Alpha | 1.0.0 | TBD | 1 Jan 2027  | X31AP
+| Release | 1.0.0 | TBD | 1 Jan 2027  | X31AP
 
 ### UBID
 
