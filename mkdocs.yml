@@ -18,5 +18,6 @@ extra:
   generator: false
 plugins:
   - awesome-nav
+  - search
   - git-revision-date-localized:
       type: date
