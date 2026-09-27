@@ -17,5 +17,6 @@ extra:
       link: https://github.com/0xsmft
   generator: false
 plugins:
+  - awesome-nav
   - git-revision-date-localized:
       type: date
