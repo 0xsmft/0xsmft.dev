@@ -10,6 +10,8 @@ Data and behaviour that can added to an [Entity](entity.md).
 
 Entity transformation data.
 
+This component cannot be removed.
+
 ```cpp
 struct TransformComponent
 ```
@@ -69,6 +71,8 @@ glm::vec3 Rotation = { 0.0f, 0.0f, 0.0f };
 
 Entity Tag data.
 
+This component cannot be removed.
+
 ```cpp
 struct TagComponent
 ```
@@ -83,6 +87,8 @@ TagComponent( const std::string& rTag );
 ### IdComponent
 
 Unqiue entity ID component.
+
+This component cannot be removed.
 
 ```cpp
 struct IdComponent
@@ -315,6 +321,8 @@ float Falloff = 1.f;
 ### RelationshipComponent
 
 Entity relationship data, handles child/parent relations.
+
+This component cannot be removed.
 
 ```cpp
 struct RelationshipComponent
