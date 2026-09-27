@@ -12,6 +12,21 @@ class Entity : public SObject
 ### Most Important Functions (public)
 
 ```cpp
+// Called when the Runtime begins or when this entity is spawned
+virtual void BeginPlay();
+
+// Called every frame with a potentially variable timestep 
+virtual void OnUpdate( Saturn::Timestep ts );
+
+// Called every frame with a fixed timestep 
+virtual void OnPhysicsUpdate( Saturn::Timestep ts );
+
+// When this entity hits another entity with a physics body, or a trigger.
+virtual void OnEntityHit( Entity* pOther, bool isTrigger );
+
+// When this entity is no longer in the trigger or the entity.
+virtual void OnEntityLeave( Entity* pOther, bool isTrigger );
+
 template<typename T, typename... Args>
 T& AddComponent( Args&&... args );
 

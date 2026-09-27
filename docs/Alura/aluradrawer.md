@@ -25,6 +25,8 @@ virtual void OnEvent( Event& rEvent ) = 0;
 
 It's best to not place any initialisation code in the constuctor and place it in the OnInit() function. Same rules applies for OnDestroy().
 
+To add to an [AluraCanvas](aluracanvas.md) call `AddDrawer()`.
+
 ### SClass Flags
 
 ```cpp

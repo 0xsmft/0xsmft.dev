@@ -8,7 +8,9 @@ Global variable: `AluraCanvas* g_AluraCanvas`
 
 The origin of the viewport is top-left as described in [Maths](maths.md)
 
-Only one `AluraCanvas` can exist, any attempt to create a second `AluraCanvas` will cause the application to assert.
+Only one AluraCanvas can exist, any attempt to create a second AluraCanvas will cause the application to assert.
+
+An AluraCanvas acts the a viewport.
 
 ```cpp
 class AluraCanvas : public RefTarget
@@ -165,6 +167,31 @@ AluraStyle& GetStyle();
 
 Ref<AluraFont> GetActiveFont() const;
 Ref<AluraFont> GetEditorFont() const;
+```
+
+## General functions
+
+```cpp
+void NewFrame();
+void DrawAllDrawers( Timestep ts );
+void HandleDrawerEvents( Event& rEvent );
+void Destroy();
+void OnSceneChange();
+void EndFrame();
+
+void AddDrawer( Ref<AluraDrawer> drawer );
+void SetContext( Ref<AluraRenderer> context );
+
+void PushFontAndSetActive( Ref<AluraFont> font );
+// Pops the newest font in the fonts list.
+// NOTE: There must always be an active font, so if you pop the last remaining font, Saturn will assert.
+void PopFont();
+
+//
+// Clears the drawer list
+// and calls OnDestroy()
+//
+void RemoveAllDrawers();
 ```
 
 ## Related
