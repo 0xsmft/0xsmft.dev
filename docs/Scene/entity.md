@@ -60,6 +60,53 @@ glm::vec3 GetLocalPosition() const;
 glm::vec3 GetLocalRotation() const;
 glm::quat GetLocalRotationQuat() const;
 glm::vec3 GetLocalScale() const;
+
+//
+// @returns the physics material ID.
+// 
+// Priority is given to the RigidBody then the Static/Skeletal Meshes.
+// May return zero if no ID is set or could be found.
+//
+UUID GetPhysicsMaterialID();
+
+//
+// Helper to remove this entity from it's parent.
+//
+void RemoveFromParent();
+
+//
+// Move to a new parent and remove from the old parents list.
+//
+void ChangeToNewParent( SharedPtr<Entity> parent );
+
+//
+// Try to get the parent.
+// 
+// @returns -- the parent (if any, may be null if not found.)
+//
+[[nodiscard]] SharedPtr<Entity> TryGetParent();
+[[nodiscard]] const SharedPtr<Entity> TryGetParent() const;
+
+//
+// Attach this entity to a bone in it's parent.
+//
+void AttachToBone( const std::string& rAttachmentName );
+
+//
+// Attach this entity to a bone in a new parent.
+//
+void AttachToBone( SharedPtr<Entity> parent, const std::string& rAttachmentName );
+
+//
+// Remove this entity from a bone attachment.
+//
+void DetachFromBone();
+
+//
+// Calculate forward vector based from the
+// entity's _local_ rotation.
+//
+glm::vec3 CalculateForwardVectorFromRotation();
 ```
 
 ## Related

@@ -27,7 +27,7 @@ AluraCanvas will also hold an owning reference to the drawer as well.
 
 Futhermore, you must also take into account of any objects you store in the drawer, if you create a drawer to display player information you may want to use a [`WeakRef`](ref.md) to hold a reference to the player, if you do not, you may run into lifetime issues.
 
-## Styling
+### Styling
 
 Alura's style is customisable and you can use an [`AluraStylingProfile`](alurastylingprofile.md) to do so.
 
