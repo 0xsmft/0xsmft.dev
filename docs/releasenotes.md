@@ -1,5 +1,23 @@
 # Release Notes
 
+### 0.2.7
+
+*27 Sept 2026, 2143 hrs*
+
+Alura part 2, SProperties work again, crash reporter.
+
+- SProperty
+- Preview mesh in SkeletonAv
+- Thumbnails for Prefabs
+- Thumbnails for Animations
+- Alura Pt. 2
+- Crash reporter
+- Fix delayed Renderer2D
+- Release (purge) assets if they haven't been used in a while
+- Quick Fire animations
+
+Tag link [here](https://github.com/0xsmft/Saturn-Engine/releases/tag/alpha-0.2.7)
+
 ### 0.2.6
 
 *27 July 2026, 0922 hrs*
