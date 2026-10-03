@@ -2,7 +2,7 @@
 
 A distribution target file (*.Dist.cs) setups build flags for the DIST config only. 
 
-Example File:
+Example file:
 
 ```cs
 using System;

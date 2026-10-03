@@ -6,7 +6,7 @@ For example a Module.cs file may set up the IncludeDirs, SourceDirs and how the 
 
 It may also be used setup PCH information.
 
-Example File:
+Example file:
 
 ```cs
 using System;

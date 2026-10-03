@@ -2,7 +2,7 @@
 
 A development target file (*.Dist.cs) setups build flags for the DEBUG-ASAN, DEBUG and RELEASE config only. 
 
-Example file
+Example file:
 
 ```cs
 using System;

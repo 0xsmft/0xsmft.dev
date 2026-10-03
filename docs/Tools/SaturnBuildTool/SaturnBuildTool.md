@@ -37,9 +37,9 @@ macOS:
 
 /NAME*           -- project name MUST match with the .sproject file name!
 
-/SATURNDIR       -- override the Saturn Root Directory by default the build tool will use the \"SATURN_DIR\" environment variable
+/SATURNDIR       -- override the Saturn Root Directory by default the build tool will use the "SATURN_DIR" environment variable
 
-/SRC             -- override the Source Dir, by default its \"Source/{prj.name}\", when overriding make sure the path is relative to the .sproject path
+/SRC             -- override the Source Dir, by default its "Source/{prj.name}", when overriding make sure the path is relative to the .sproject path
 
 #### Compile Options
 ##### Platform Options
