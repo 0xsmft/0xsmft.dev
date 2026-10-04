@@ -1,5 +1,7 @@
 # AssetManager
 
+`#include "Saturn/Asset/AssetManager.h"`
+
 This class is an owned singleton class responsible for importing assets, deleting assets, asset dependencies, creating assets, asset type traits and purging assets.
 
 ```cpp
