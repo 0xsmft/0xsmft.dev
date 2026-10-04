@@ -1,6 +1,6 @@
 # SaturnBuildTool
 
-`SaturnBuildTool` is a custom build tool that compiles Saturn game projects (.sprojects) into a final binary.
+`SaturnBuildTool` (SBT) is a command-line application that is responsible for compiling Saturn game projects (.sprojects) into a final binary.
 
 The build tool can support a variety of different compilers.
 
