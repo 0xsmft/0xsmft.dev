@@ -30,7 +30,7 @@ jobs:
             mkdocs-awesome-nav
 
       - name: Build site
-        run: mkdocs build
+        run: mkdocs build --clean
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
