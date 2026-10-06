@@ -8,7 +8,9 @@ Global variable: `AluraCanvas* g_AluraCanvas`
 
 The origin of the viewport is top-left as described in [Maths](maths.md)
 
-Only one AluraCanvas can exist, any attempt to create a second AluraCanvas will cause the application to assert.
+!!! Please read the following information
+
+    Only one AluraCanvas can exist, any attempt to create a second AluraCanvas will cause the application to assert!
 
 An AluraCanvas acts the a viewport.
 
