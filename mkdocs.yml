@@ -25,5 +25,5 @@ plugins:
   - search
   - git-revision-date-localized:
       type: date
-markdown_extensions;
+markdown_extensions:
   - admonition
