@@ -1,7 +1,7 @@
 site_name: 0xsmft
 repo_url: https://github.com/0xsmft/Saturn-Engine
 repo_name: 0xsmft/Saturn-Engine
-copyright: Website version 1.3.1-A61dOS
+copyright: Website version 1.3.1-A61eOS
 theme:
   name: material
   icon:
@@ -25,5 +25,6 @@ plugins:
   - search
   - git-revision-date-localized:
       type: date
+      enable_creation_date: true
 markdown_extensions:
   - admonition
