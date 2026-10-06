@@ -4,7 +4,9 @@
 
 An SClassSpecification defines the specification of an [SClass](sclass.md).
 
-This struct is only to be used by the ClassMetadataHandler and the BuildTool!
+!!! note "Please read the following information"
+
+    This struct is only to be used by the ClassMetadataHandler and the BuildTool!
 
 ```cpp
 struct SClassSpecification

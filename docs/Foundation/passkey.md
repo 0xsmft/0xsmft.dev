@@ -22,4 +22,7 @@ void MyClass::DoSomeShit( Passkey<MyOtherClass> pk )
 {
     ...code...
 }
+
+// And use as such:
+m_pMyClass->DoSomeShit( Passkey<MyOtherClass>() );
 ```

@@ -4,7 +4,9 @@
 
 Base class for Gameplay Objects/Reflected types.
 
-All classed based from `SObject` should have the `S` prefix.
+!!! name "Naming convention"
+
+    All classes based from `SObject` should have the `S` prefix.
 
 ```cpp
 class SObject : public RefTarget

@@ -45,5 +45,5 @@ JPH::BodyID GetBodyID() const;
 
 ## Related
 
-[PhysicsBodyType](phyiscsbodytype.md)
-[PhysicsBodyType](phyiscsbodytype.md)
+[PhysicsBodyType](physicsbodytype.md)
+[RigidbodyLockFlags](rigidbodylockflags.md)

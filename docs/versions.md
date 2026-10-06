@@ -2,7 +2,9 @@
 
 Each version in Saturn has a display name and an internal number.
 
-Starting in Saturn version 0.2.6, each version now comes with it's own unqiue build ID (UBID).
+!!! info "Please read the following information"
+
+    Starting in Saturn version 0.2.6, each version now comes with it's own unqiue build ID (UBID).
 
 ### Past Version Table
 
