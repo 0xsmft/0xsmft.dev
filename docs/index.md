@@ -8,7 +8,7 @@ fucked website
 
     ---
 
-   The GameFramework module is the main module for gameplay.
+    The GameFramework module is the main module for gameplay.
 
     [:octicons-arrow-right-24: Character](/docs/Game%20Framework/character.md)
     [:octicons-arrow-right-24: SClass](/docs/Game%20Framework/sclass.md)
@@ -18,7 +18,7 @@ fucked website
 
     ---
 
-   For all documentation about the ECS and the Scene system.
+    For all documentation about the ECS and the Scene system.
 
     [:octicons-arrow-right-24: Entity](/docs/Scene/entity.md)
     [:octicons-arrow-right-24: Component](/docs/Scene/components.md)
