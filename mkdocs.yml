@@ -1,7 +1,7 @@
 site_name: 0xsmft
 repo_url: https://github.com/0xsmft/Saturn-Engine
 repo_name: 0xsmft/Saturn-Engine
-copyright: Website version 1.4.0-B56aOS
+copyright: Website version 1.4.0-B56bOS
 theme:
   name: material
   icon:
@@ -28,3 +28,5 @@ plugins:
       enable_creation_date: true
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
