@@ -26,4 +26,5 @@
 | Font | 15 (0xF) | .saf
 | StyleProfile | 16 (0x10) | .ssp
 | PhysSurfaceRegistry | 17 (0x11) | .spsr
-| Unknown | 18 (0x12) | N/A
+| ShaderPrototype | 18 (0x12) | .sgsl
+| Unknown | 19 (0x13) | N/A
