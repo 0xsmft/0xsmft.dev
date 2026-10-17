@@ -1,7 +1,11 @@
 site_name: 0xsmft
 repo_url: https://github.com/0xsmft/Saturn-Engine
 repo_name: 0xsmft/Saturn-Engine
-copyright: Website version 1.4.0-B56eOS
+# The website version has two different versions, the numerical version i.e. 1.x.x is the documentation version
+# whereas the UBID style i.e. X99(x)XX is the website version, so any changes to the websites properties
+# such as a new plugin should change this value (only changing the incerment not the full UBID)
+# A deleted/new page should modify both and in such a case a new UBID would need to be created.
+copyright: Website version B56eOS, documentation version 1.4.1
 theme:
   name: material
   icon:

@@ -13,6 +13,17 @@ A rigidbody is created and managed by the PhysicsFoundation, but a rigidbody nee
 A rigidbody can be static, kinematic or dynamic.
 See [PhysicsBodyType](physicsbodytype.md) for more information.
 
+The position and rotation of the *entity* may be controlled by the rigidbody, this will depend on the locking flags and what rigidbody type it is.
+
+For dynamic rigidbodies:
+- Position and rotation is controlled by the rigidbody, some rotational axes may not but depends on locking flags.
+
+For static rigidbodies
+- Position and rotation is controlled by the rigidbody and can not be moved.
+
+For kinematic rigidbodies:
+- Position and rotation is controlled via the entity, moving kinematic bodies can be expensive to do so and you must also manaully call `PhysicsRigidBody::SetPosition` after.
+
 ## Public members
 
 ```cpp
