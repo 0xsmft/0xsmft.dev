@@ -1,6 +1,24 @@
 # Saturn Engine
 
-fucked website
+Saturn is primarily an early-stage cross-platform 3D game engine.
+
+<p>
+    <a href="https://github.com/BEASTSM96/Saturn-Engine/blob/vulkan/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-green.svg"></a>
+    <a href="https://img.shields.io/github/repo-size/BEASTSM96/Saturn-Engine"><img alt="Repo Size" src="https://img.shields.io/github/repo-size/BEASTSM96/Saturn-Engine"></a>
+    <a href="https://trello.com/b/baqP3fvB/saturn-engine"><img alt="Trello" src="https://img.shields.io/badge/Trello-saturn--engine-blue"></a>
+</p>
+
+Saturn supports the following platforms listed below:
+
+| Platform | Supported | Architecture | Build Status | Stability |
+| -------- | --------- | ------------ | ------------ | --------- |
+| Windows 10+ | ✅ | x86_64 & AArch64 |     <a href="https://github.com/BEASTSM96/Saturn-Engine/actions/workflows/Windows.yml"><img alt="Repo Size" src="https://github.com/BEASTSM96/Saturn-Engine/actions/workflows/Windows.yml/badge.svg"></a> | Very stable
+| Linux | 🕗 *[Progress](https://trello.com/c/o43wueQO/9-preliminary-linux-support)* | x86_64 | No CI yet. | N/A
+| macOS 15+ (Sequoia) | ✅ | AArch64 (Apple M-Series) | <a href="https://github.com/BEASTSM96/Saturn-Engine/actions/workflows/MacOS-Arm.yml"><img alt="macOS CI" src="https://github.com/BEASTSM96/Saturn-Engine/actions/workflows/MacOS-Arm.yml/badge.svg"></a> | Unstable
+
+*Windows ARM builds are only available on Windows 11*
+
+For information on building the engine please visit the [README](https://github.com/0xsmft/Saturn-Engine/blob/vulkan/README.md).
 
 <div class="grid cards" markdown>
 
