@@ -1,6 +1,6 @@
 # ActionBindingTriggerState
 
-`#include "Saturn/GameFramework/ActingBinding.h"`
+`#include "Saturn/GameFramework/ActionBinding.h"`
 
 8-bit enum (bitfield).
 
