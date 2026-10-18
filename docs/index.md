@@ -16,7 +16,9 @@ Saturn supports the following platforms listed below:
 | Linux | 🕗 *[Progress](https://trello.com/c/o43wueQO/9-preliminary-linux-support)* | x86_64 | No CI yet. | N/A
 | macOS 15+ (Sequoia) | ✅ | AArch64 (Apple M-Series) | <a href="https://github.com/BEASTSM96/Saturn-Engine/actions/workflows/MacOS-Arm.yml"><img alt="macOS CI" src="https://github.com/BEASTSM96/Saturn-Engine/actions/workflows/MacOS-Arm.yml/badge.svg"></a> | Unstable
 
-*Windows ARM builds are only available on Windows 11*
+!!! info "Please read the following information"
+
+    Windows ARM builds are only available on Windows 11.
 
 For information on building the engine please visit the [README](https://github.com/0xsmft/Saturn-Engine/blob/vulkan/README.md).
 
