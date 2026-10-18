@@ -5,7 +5,7 @@ repo_name: 0xsmft/Saturn-Engine
 # whereas the UBID style i.e. X99(x)XX is the website version, so any changes to the websites properties
 # such as a new plugin should change this value (only changing the incerment not the full UBID)
 # A deleted/new page should modify both and in such a case a new UBID would need to be created.
-copyright: Website version B57bOS, documentation version 1.8.5
+copyright: Website version B57bOS, documentation version 1.8.5, generator MkDocs, ext. Material for MkDocs
 theme:
   name: material
   icon:
@@ -23,7 +23,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/0xsmft
-  generator: true
+  generator: false
 plugins:
   - awesome-nav
   - search
