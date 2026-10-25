@@ -6,7 +6,7 @@ Main UI functions for Alura.
 
 Global variable: `AluraCanvas* g_AluraCanvas`
 
-The origin of the viewport is top-left as described in [Maths](maths.md)
+The origin of the viewport is top-left as described in [Maths](../maths.md)
 
 !!! info "Please read the following information"
 

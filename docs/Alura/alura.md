@@ -18,14 +18,14 @@ The lifetime and validity of `g_AluraCanvas` is guaranteed to be valid so long a
 Main page: [AluraDrawer](aluradrawer.md)
 
 Drawers are inheritable class to allow for custom drawing onto the AluraCanvas.
-
+s
 For example in a game you may have `PlayerHUD`, `GameStateHUD` in which all of them would be child classes of `AluraDrawer`.
 
-The lifetime of an AluraDrawer is complex. You must store your AluraDrawer with an [intrusive reference](ref.md) this means that the class that owns the drawer should release the reference. 
+The lifetime of an AluraDrawer is complex. You must store your AluraDrawer with an [intrusive reference](../Foundation/ref.md) this means that the class that owns the drawer should release the reference. 
 
 AluraCanvas will also hold an owning reference to the drawer as well.
 
-Futhermore, you must also take into account of any objects you store in the drawer, if you create a drawer to display player information you may want to use a [`WeakRef`](ref.md) to hold a reference to the player, if you do not, you may run into lifetime issues.
+Futhermore, you must also take into account of any objects you store in the drawer, if you create a drawer to display player information you may want to use a [`WeakRef`](../Foundation/ref.md) to hold a reference to the player, if you do not, you may run into lifetime issues.
 
 ### Styling
 

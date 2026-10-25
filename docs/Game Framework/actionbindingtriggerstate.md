@@ -8,7 +8,7 @@
 enum class ActionBindingTriggerState : uint8_t
 ```
 
-The enum allows the [ActionBinding](actingbinding.md) to know when it should fire it's function. Because this is a bitfield you can combine both values.
+The enum allows the [ActionBinding](actionbinding.md) to know when it should fire it's function. Because this is a bitfield you can combine both values.
 
 ## Valid bits
 

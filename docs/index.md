@@ -56,7 +56,7 @@ For information on building the engine please visit the [README](https://github.
 
     [:octicons-arrow-right-24: AluraCanvas](Alura/aluracanvas.md)
 
-    [:octicons-arrow-right-24: AluraColor](Alura/aluracolor.md)
+    [:octicons-arrow-right-24: AluraColour](Alura/aluracolour.md)
 
     [:octicons-arrow-right-24: AluraStylingProfile](Alura/alurastylingprofile.md)
 

@@ -59,6 +59,6 @@ void DeserialiseData( std::ifstream& rStream );
 
 ## Related
 
-[AssetType](assettypes.md)
+[AssetType](assettype.md)
 [AssetTypeTraits](assettypetraits.md)
 [AssetVersion](assetversion.md)
