@@ -35,3 +35,24 @@ A UBID is randomly generated upon a final build before distributing the Engine.
 
 A UBID can be 5 characters long or 6 characters long.
 The format must look like X99(9)XX e.g. A26AA or A260AA
+
+### Release Schedule
+
+The release schedule begins on the 27 March, 27 May, 27 July, 27 September and then with the final build of the year being on the 1 Jan (the next year).
+
+September builds have sometimes been skipped, it depends on what is scheduled to release for the end of year build (which are more important than September builds).
+
+Why are releases released the 27? The reason is simple. The first version of Saturn was meant to release on 28 March 2023 but I ended up delaying it a whole year.
+
+### Auxiliary versions / Internal versions
+
+The builds/versions listed below are now lost. Most of them were private builds. Most of the builds never worked anyway and were only made for archival purposes.
+
+| Type  | Name  | Number | Release Date | Tag (UBID)
+| ------| ------|----- | --------------| ----- |
+| Initial | Initial | N/A | 26 July 2020 | N/A
+| Initial-Vulkan | Initial-Vulkan | N/A | 07 April 2022 | N/A
+| MVP | MVP-MAR-2023 | N/A | 28 March 2023 | N/A
+| Patch | M1 | 1 | April 2023  | N/A
+| Patch | M2 | 2 | June 2023  | N/A
+| Patch | M3 | 3 | December 2023 | N/A
