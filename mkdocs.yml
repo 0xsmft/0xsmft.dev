@@ -22,7 +22,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/0xsmft
     - icon: fontawesome/brands/github
-      link: https://github.com/docs.0xsmft.dev
+      link: https://github.com/0xsmft/0xsmft.dev
   generator: false
 plugins:
   - awesome-nav
