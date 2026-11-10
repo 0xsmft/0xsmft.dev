@@ -5,7 +5,7 @@ categories:
   - C++
 authors:
   - 0xsmft
-slug: game_programming
+slug: gp_camera_shake
 description: >
   Camera shake maths and implmentation.
 ---

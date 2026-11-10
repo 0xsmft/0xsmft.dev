@@ -4,7 +4,7 @@ categories:
   - C++
 authors:
   - 0xsmft
-slug: cpp
+slug: cpp_passkey
 description: >
   Passkey idiom
 ---
