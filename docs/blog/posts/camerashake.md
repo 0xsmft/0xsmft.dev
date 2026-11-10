@@ -2,6 +2,7 @@
 date: 2026-11-09 
 categories:
   - Game Programming
+  - C++
 authors:
   - 0xsmft
 slug: game_programming
