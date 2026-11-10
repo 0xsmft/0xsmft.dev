@@ -11,6 +11,8 @@ description: >
 
 # Passkey
 
+Last Updated: 08 August 2026
+
 We've all run into this issue before, we want to give access to certain functions of a class, so we simply make it a friend class then you realise that maybe this class should have access to all of the original classes' privates, so what do we do? Normally, I would create a public function and just hope nobody else in the codebase will call it. However, there is a better way, enter the passkey idiom, a somewhat forgotten idiom.
 
 ## The benefits
