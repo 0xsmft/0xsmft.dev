@@ -17,6 +17,7 @@ Last Updated: 27 May 2025
 Today, I have released an update for Saturn.
 
 Changes:
+
 - CB Thumbnails
 - Undo/Redo
 - Quick Actions for CB
